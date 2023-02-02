@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color:rgba(255,255,255,0.7);
+    align-items: center;
+
+}
+   
+header p {
+    margin-right: auto;
+    margin-left: 15px;
+    font-size: 25;
+}
+   
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+.headline {
+    display: block;
+    text-align: center;
+    padding: 25% 0%;
+    color: #000000;
+}
+main {
+    background-color:rgb(255, 255, 255, 0.9);
+    padding-bottom: 10px;
+}
+main img {
+    width: 100%;
+}
+.subtitle1 {
+    margin-left: 20px;
+    font-size: 30;
+}
+.subtitle2 {
+    margin-left: 40px;
+    font-size: 20;
+}
+.explanation1 {
+    margin: 30px 30px;
+    font-size: 18;
+}
+.explanation2 {
+    margin: 30px 30px 30px 50px;
+}
+main hr {
+    margin: 0px 20px;
+}
+main a {
+    margin: 0px 20px;
+    font-size:15px;
+    color:#FFFFFF;
+    text-align:center;
+    display:block;
+    padding:10px 0 10px;
+    background:#0b7bd0;
+}
+#otintin {
+    padding-top: 80px;
+}
