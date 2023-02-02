@@ -13,6 +13,7 @@ header {
    
 header h1 {
     margin-right: auto;
+    margin-left: 15px;
 }
    
 header li {
