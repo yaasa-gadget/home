@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #222;
+}
+.logo img {
+    margin-left: 15px;
+    width: 200px;
+    height: auto;
+}
+.gnavi {
+    display: flex;
+    margin-top: 10px;
+}
+.gnavi li {
+    border-left: 1px solid #222;
+    width: 25%;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.gnavi li:last-child {
+    border-right: 1px solid #222;
+}
+.gnavi li:hover {
+    background-color: #ccc;
+}
+.gnavi li a {
+    text-decoration: none;
+    display: block;
+}
+.title {
+    margin-left: 10px;
+}
+.description {
+    margin-left: 20px;
+}
